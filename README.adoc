@@ -4,6 +4,10 @@ Goal of this repository is to provide some few easy examples of demo to run on C
 
 It relies on Data generated previously be Datagen.
 
+## Copy stock_names.csv
+
+It is required to copy on the node where DATAGEN web server is running the file link:resources/stock_names.csv[stock_names.csv] into /tmp folder.
+
 
 ## Bank Accounts
 
@@ -24,6 +28,42 @@ Use Datagen to generate data in _hive_ with following parameters:
 - Batches: 10
 - Rows: 100000
 - Threads: 10
+
+__N.B.: You can change the model to use another country than USA, by replacing occurrences of USA by something among UK, France, Germany, Spain, Italy, Japan, India, China, Tunisia, Israel etc... __
+
+
+## Stock Price
+
+Use Datagen to generate data in _hive_ with following parameters:
+
+- Model file: link:datagen-models/stock-price.json[Stock Price]
+- Batches: 1
+- Rows: 100
+- Threads: 1
+
+__N.B.: You can change the model to use another country than USA, by replacing occurrences of USA by something among UK, France, Germany, Spain, Italy, Japan, India, China, Tunisia, Israel etc... __
+
+
+## Stock Price Transaction
+
+Use Datagen to generate data in _hive_ with following parameters:
+
+- Model file: link:datagen-models/stock-price-transaction.json[Stock Price Transaction]
+- Batches: 10
+- Rows: 100000
+- Threads: 10
+
+__N.B.: You can change the model to use another country than USA, by replacing occurrences of USA by something among UK, France, Germany, Spain, Italy, Japan, India, China, Tunisia, Israel etc... __
+
+
+## Traders
+
+Use Datagen to generate data in _hive_ with following parameters:
+
+- Model file: link:datagen-models/traders.json[Traders]
+- Batches: 1
+- Rows: 1000
+- Threads: 1
 
 __N.B.: You can change the model to use another country than USA, by replacing occurrences of USA by something among UK, France, Germany, Spain, Italy, Japan, India, China, Tunisia, Israel etc... __
 

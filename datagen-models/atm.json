@@ -53,7 +53,7 @@
     {"OZONE_KEY_NAME":  "atm"},
     {"OZONE_LOCAL_FILE_PATH":  "/home/datagen/temp/atm/"},
     {"SOLR_COLLECTION": "banking_atm"},
-    {"HIVE_DATABASE": "banking"},
+    {"HIVE_DATABASE": "datagen_banking"},
     {"HIVE_TABLE_NAME":  "atm"},
     {"HIVE_TEMPORARY_TABLE_NAME":  "atm_tmp"},
     {"KUDU_TABLE_NAME":  "banking.atm_kudu"},
