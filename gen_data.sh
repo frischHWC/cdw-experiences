@@ -60,7 +60,7 @@ done
 
 }
 
-generate_data hive datagen-models/bank-account.json 10 1000 10
+generate_data hive datagen-models/bank-account.json 10 1000000 10
 generate_data hive datagen-models/atm.json 10 100000 10
 generate_data hive datagen-models/stock-price.json 1 100 1
 generate_data hive datagen-models/stock-price-transaction.json 10 100000 10
