@@ -19,7 +19,7 @@
 #!/usr/bin/env bash
 
 # DATAGEN_URL should be in this form: https://bootcamp-1.vpc.cloudera.com:4242
-export DATAGEN_URL=""
+export DATAGEN_URL="https://localhost:4242"
 export DATAGEN_USER="admin"
 export DATAGEN_PASSWORD="admin"
 
@@ -59,6 +59,8 @@ done
 
 
 }
+
+cp resources/stock_names.csv /tmp/
 
 generate_data hive datagen-models/bank-account.json 10 1000000 10
 generate_data hive datagen-models/atm.json 10 100000 10
