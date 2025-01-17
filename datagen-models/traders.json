@@ -1,4 +1,5 @@
 {
+  "model_name": "traders-cdw",
   "Fields": [
     {
       "name": "name",

@@ -1,4 +1,5 @@
 {
+  "model_name": "stock-price-transaction-cdw",
   "Fields": [
     {
       "name": "symbol",
